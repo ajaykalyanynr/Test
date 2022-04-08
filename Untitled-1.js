@@ -50,7 +50,7 @@ function ProcessOptionChart() {
             if (_callMaxOI > callMaxOI) { callMaxOI = _callMaxOI; callMaxOIEle = _calOIEle; }
             if (_putMaxOI > putMaxOI) { putMaxOI = _putMaxOI; putMaxOIEle = _putOIEle }
 
-            //$(v).find('div:nth-child(2)').css('border-top','3px solid blue');
+            //$(v).find('div:nth-child(2)').css('border-top','3px solid blue'); Nothing
 
             if (parseFloat(putLTPPrev) > parseFloat(calLTP) && IRFound == false) {
                 IRFound = true;
